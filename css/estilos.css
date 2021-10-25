@@ -1,0 +1,88 @@
+.wrapper{
+    width: 837px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .container{
+    position: relative;
+    width: 837px;
+    height: 420px;
+    overflow: hidden;
+  }
+
+  .frame{
+    position: absolute;
+    width: 2511px;
+    left: 0;
+    transition: left 1s;
+  }
+
+  .ball{
+
+    width: 10px;
+    height: 10px;
+    background: white;
+    margin: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    border: 1px solid red;
+  }
+
+  table td{
+
+    position: relative;
+  }
+
+  table td:hover {
+
+    opacity: .7;
+  }
+
+  .img-text {
+
+    position: absolute;
+    bottom: 10px;
+  }
+
+  p{
+
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .btn-danger{
+
+    width: 70px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 20%;
+    background: red;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .btn-danger:hover{
+
+    border-style: solid;
+    background: blue;
+    color: white;
+  }
+
+  a{
+
+    text-decoration: none;
+    color: red;
+  }
+
+  .va{
+    
+    font-family: 'Nunito', sans-serif;
+    color: red;
+  }
+
+  .fecha{
+
+    font-size: 12px;
+  }
